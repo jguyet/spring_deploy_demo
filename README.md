@@ -78,11 +78,6 @@ public class MyApplication extends SpringBootServletInitializer {
 ...
 <packaging>war</packaging><!-- tomcat website packaging -->
 ...
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-tomcat</artifactId>
-	<scope>provided</scope>
-</dependency>
 ```
 
 ####  6 For finish deploy War file on Tomcat
@@ -96,8 +91,8 @@ Go to apache-tomcat-x.x.x.x\bin, then start:
 Window : ```startup.bat```
 linux : ```startup.sh```
 
-###Success
+#### Success
 go to ```http://127.0.0.1:8080/website```
 
-#######Author Jguyet
+Author Jguyet
 
